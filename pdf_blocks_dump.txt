@@ -1,0 +1,52 @@
+Block 0 (y0=2510.2, x0=562.0):
+CONTENTS
+----------------------------------------
+Block 1 (y0=19962.5, x0=174.6):
+The Nuver website’s iOS and Android versions are designed with a sleek, mobile-ﬁrst approach, ensuring a seamless 
+user experience across all devices. The layout is fully responsive, oﬀering smooth navigation, clean typography, and touch-optimized elements for eﬀortless interaction. 
+Whether you're browsing content, exploring features, or signing up, the mobile design keeps everything intuitive and snappy — reﬂecting Nuver's modern digital identity.
+----------------------------------------
+Block 2 (y0=20077.4, x0=131.5):
+From fast loading times to easy access to core functionalities, the mobile version of Nuver delivers a polished experience that mirrors the desktop site without compromising usability.
+----------------------------------------
+Block 3 (y0=20099.0, x0=175.0):
+Interactive elements like buttons, menus, and galleries are thoughtfully scaled for smaller screens, ensuring users on iPhones and Android devices enjoy the same quality,
+----------------------------------------
+Block 4 (y0=20120.6, x0=348.1):
+clarity, and performance as desktop users. The site is built to adapt, engage, and impress — wherever you're viewing it from.
+----------------------------------------
+Block 5 (y0=21422.7, x0=279.7):
+The desktop version of the Nuver website is crafted for an immersive and responsive experience on both Windows and Mac platforms. 
+With a spacious layout and high-resolution visuals, it takes full advantage of larger screens to showcase content in a clean, modern interface.
+----------------------------------------
+Block 6 (y0=21494.5, x0=246.2):
+Users can easily navigate through sections, interact with 
+dynamic features, and access key functionalities with precision and speed — all while enjoying a visually rich and performance-optimized experience.
+----------------------------------------
+Block 7 (y0=21559.3, x0=139.1):
+Whether you're exploring Nuver’s services, managing your account, or diving into its core features, the desktop site oﬀers a polished and professional feel tailored for productivity.
+----------------------------------------
+Block 8 (y0=21580.9, x0=165.9):
+Designed with cross-browser compatibility in mind, it performs smoothly on Chrome, Edge, Firefox, and beyond — ensuring consistent performance no matter your setup.
+----------------------------------------
+Block 9 (y0=21602.5, x0=348.4):
+The Nuver web experience on PC isn’t just a scaled-up mobile version — it's a reﬁned digital environment built to perform.
+----------------------------------------
+Block 10 (y0=28180.6, x0=712.6):
+9895566547, 7736954087
+----------------------------------------
+Block 11 (y0=19880.0, x0=763.1):
+NUVER
+----------------------------------------
+Block 12 (y0=19867.7, x0=792.8):
+. .
+----------------------------------------
+Block 13 (y0=21346.3, x0=811.0):
+NUVER
+----------------------------------------
+Block 14 (y0=21334.0, x0=840.6):
+. .
+----------------------------------------
+Block 15 (y0=1923.6, x0=1223.9):
+Id
+----------------------------------------

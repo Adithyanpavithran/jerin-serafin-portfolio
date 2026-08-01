@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JERIN J SERAFIN | PDF Portfolio Scroll Webpage</title>
+  <meta name="description" content="Exact PDF portfolio document webpage for Jerin J Serafin featuring NUVER for Mobile (iOS & Android) and Desktop (Windows & Mac)." />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Plus+Jakarta+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top Scroll Progress Bar -->
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar" id="scroll-progress"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="brand-title">
+      <span>JERIN J SERAFIN</span>
+      <span class="badge-tag">PDF WEBPAGE</span>
+    </div>
+
+    <div class="nav-actions">
+      <button class="btn btn-outline" onclick="copyContact('9895566547', 'Primary Phone')">📞 9895566547</button>
+      <button class="btn btn-primary" onclick="scrollToSection('contact')">Get In Touch</button>
+    </div>
+  </nav>
+
+  <!-- Hero Header -->
+  <header id="hero" class="hero-header">
+    <span class="hero-subtitle-tag">Official PDF Portfolio Webpage</span>
+    <h1 class="hero-title">
+      JERIN J SERAFIN <br>
+      <span class="gradient-text">NUVER Digital Ecosystem</span>
+    </h1>
+    <p class="hero-desc">
+      Read the exact PDF document pages as you scroll down. Built for <strong>iOS, Android, Windows, and macOS</strong>.
+    </p>
+
+    <div class="quick-contact-row">
+      <div class="contact-pill" onclick="copyContact('9895566547', 'Primary Phone')">
+        📞 +91 9895566547 (Click to Copy)
+      </div>
+      <div class="contact-pill" onclick="copyContact('7736954087', 'Secondary Phone')">
+        📱 +91 7736954087 (Click to Copy)
+      </div>
+    </div>
+  </header>
+
+  <!-- EXACT PDF PAGES SCROLL STREAM -->
+  <main class="pdf-scroll-document" id="pdf-document-container">
+    <div class="pdf-page-segment">
+      <img src="assets/portfolio_part1.jpg" alt="Jerin J Serafin PDF Page 1" onclick="openLightbox('assets/portfolio_part1.jpg')" />
+    </div>
+    <div class="pdf-page-segment">
+      <img src="assets/portfolio_part2.jpg" alt="Jerin J Serafin PDF Page 2" onclick="openLightbox('assets/portfolio_part2.jpg')" />
+    </div>
+    <div class="pdf-page-segment">
+      <img src="assets/portfolio_part3.jpg" alt="Jerin J Serafin PDF Page 3" onclick="openLightbox('assets/portfolio_part3.jpg')" />
+    </div>
+  </main>
+
+  <!-- Contact Footer Section -->
+  <footer id="contact">
+    <div style="max-width: 800px; margin: 0 auto;">
+      <span class="hero-subtitle-tag">Direct Contact</span>
+      <h2 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 16px;">Get In Touch with Jerin J Serafin</h2>
+      <p style="color: var(--text-muted); margin-bottom: 30px; font-size: 1.1rem;">
+        Lead Engineer & Creator of the NUVER Digital Product Suite.
+      </p>
+
+      <div class="quick-contact-row" style="margin-bottom: 40px;">
+        <button class="btn btn-primary" onclick="copyContact('9895566547', 'Primary Phone')">📞 Call / WhatsApp +91 9895566547</button>
+        <button class="btn btn-outline" onclick="copyContact('7736954087', 'Secondary Phone')">📱 Call / WhatsApp +91 7736954087</button>
+      </div>
+
+      <p style="font-size: 0.9rem; color: var(--text-muted); border-top: 1px solid var(--border-light); padding-top: 30px;">
+        &copy; 2026 <strong>Jerin J Serafin</strong>. All rights reserved. Official PDF portfolio webpage.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="lightbox-modal" onclick="closeLightbox()">
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+      <img id="lightbox-img" src="" alt="Full Screen Zoom Preview" />
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast">Action notification</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
