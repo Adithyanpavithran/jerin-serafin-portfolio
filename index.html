@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JERIN J SERAFIN | PDF Portfolio Scroll Webpage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+  <title>JERIN J SERAFIN | Mobile & Desktop PDF Portfolio Scroll</title>
   <meta name="description" content="Exact PDF portfolio document webpage for Jerin J Serafin featuring NUVER for Mobile (iOS & Android) and Desktop (Windows & Mac)." />
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +23,7 @@
   <nav class="navbar">
     <div class="brand-title">
       <span>JERIN J SERAFIN</span>
-      <span class="badge-tag">PDF WEBPAGE</span>
+      <span class="badge-tag">PORTFOLIO</span>
     </div>
 
     <div class="nav-actions">
@@ -40,7 +40,7 @@
       <span class="gradient-text">NUVER Digital Ecosystem</span>
     </h1>
     <p class="hero-desc">
-      Read the exact PDF document pages as you scroll down. Built for <strong>iOS, Android, Windows, and macOS</strong>.
+      Read the exact PDF document pages as you scroll down. Engineered for <strong>iOS, Android, Windows, and macOS</strong>.
     </p>
 
     <div class="quick-contact-row">
@@ -53,7 +53,7 @@
     </div>
   </header>
 
-  <!-- EXACT PDF PAGES SCROLL STREAM -->
+  <!-- EXACT PDF PAGES SCROLL STREAM - 100% EDGE-TO-EDGE ON MOBILE -->
   <main class="pdf-scroll-document" id="pdf-document-container">
     <div class="pdf-page-segment">
       <img src="assets/portfolio_part1.jpg" alt="Jerin J Serafin PDF Page 1" onclick="openLightbox('assets/portfolio_part1.jpg')" />
@@ -70,21 +70,31 @@
   <footer id="contact">
     <div style="max-width: 800px; margin: 0 auto;">
       <span class="hero-subtitle-tag">Direct Contact</span>
-      <h2 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 16px;">Get In Touch with Jerin J Serafin</h2>
-      <p style="color: var(--text-muted); margin-bottom: 30px; font-size: 1.1rem;">
+      <h2 style="font-size: clamp(1.8rem, 5vw, 2.4rem); font-weight: 800; margin-bottom: 14px;">Get In Touch with Jerin J Serafin</h2>
+      <p style="color: var(--text-muted); margin-bottom: 24px; font-size: clamp(0.95rem, 3.5vw, 1.1rem);">
         Lead Engineer & Creator of the NUVER Digital Product Suite.
       </p>
 
-      <div class="quick-contact-row" style="margin-bottom: 40px;">
+      <div class="quick-contact-row" style="margin-bottom: 30px;">
         <button class="btn btn-primary" onclick="copyContact('9895566547', 'Primary Phone')">📞 Call / WhatsApp +91 9895566547</button>
         <button class="btn btn-outline" onclick="copyContact('7736954087', 'Secondary Phone')">📱 Call / WhatsApp +91 7736954087</button>
       </div>
 
-      <p style="font-size: 0.9rem; color: var(--text-muted); border-top: 1px solid var(--border-light); padding-top: 30px;">
-        &copy; 2026 <strong>Jerin J Serafin</strong>. All rights reserved. Official PDF portfolio webpage.
+      <p style="font-size: 0.85rem; color: var(--text-muted); border-top: 1px solid var(--border-light); padding-top: 24px;">
+        &copy; 2026 <strong>Jerin J Serafin</strong>. All rights reserved. Official mobile & desktop portfolio website.
       </p>
     </div>
   </footer>
+
+  <!-- Mobile Floating Quick Contact Bar -->
+  <div class="mobile-floating-bar">
+    <button class="mobile-floating-btn btn-primary" onclick="copyContact('9895566547', 'Primary Phone')">
+      📞 Call +91 9895566547
+    </button>
+    <button class="mobile-floating-btn btn-outline" onclick="copyContact('7736954087', 'Secondary Phone')">
+      📱 +91 7736954087
+    </button>
+  </div>
 
   <!-- Lightbox Modal -->
   <div class="lightbox-modal" id="lightbox-modal" onclick="closeLightbox()">
