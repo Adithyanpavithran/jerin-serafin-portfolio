@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
   <title>JERIN J SERAFIN | Portfolio</title>
-  <meta name="description" content="Portfolio of Jerin J Serafin featuring NUVER for Mobile and Desktop." />
+  <meta name="description" content="Official portfolio of Jerin J Serafin featuring NUVER for Mobile and Desktop." />
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,48 +14,53 @@
 </head>
 <body>
 
+  <!-- Ambient Radial Glow -->
+  <div class="ambient-glow"></div>
+
   <!-- Top Scroll Progress Bar -->
   <div class="scroll-progress-container">
     <div class="scroll-progress-bar" id="scroll-progress"></div>
   </div>
 
-  <!-- Navbar -->
+  <!-- Graphical Header Navbar -->
   <nav class="navbar">
     <div class="brand-title">
-      <span>JERIN J SERAFIN</span>
+      JERIN <span class="highlight">J SERAFIN</span>
     </div>
 
     <div class="nav-actions">
-      <button class="btn btn-outline" onclick="copyContact('9895566547', 'Primary Phone')">📞 9895566547</button>
+      <button class="btn btn-outline" onclick="copyContact('9895566547', 'Primary Contact')">📞 9895566547</button>
       <button class="btn btn-primary" onclick="scrollToSection('contact')">Contact</button>
     </div>
   </nav>
 
-  <!-- Header -->
+  <!-- Hero Banner -->
   <header id="hero" class="hero-header">
     <h1 class="hero-title">
       JERIN J SERAFIN
     </h1>
 
-    <div class="quick-contact-row">
-      <div class="contact-pill" onclick="copyContact('9895566547', 'Primary Phone')">
-        📞 +91 9895566547
+    <div class="contact-pills-container">
+      <div class="contact-pill-card" onclick="copyContact('9895566547', 'Primary Contact')">
+        <div class="pill-icon">📞</div>
+        <span>+91 9895566547</span>
       </div>
-      <div class="contact-pill" onclick="copyContact('7736954087', 'Secondary Phone')">
-        📱 +91 7736954087
+      <div class="contact-pill-card" onclick="copyContact('7736954087', 'Secondary Contact')">
+        <div class="pill-icon">📱</div>
+        <span>+91 7736954087</span>
       </div>
     </div>
   </header>
 
-  <!-- PDF PAGES SCROLL STREAM -->
-  <main class="pdf-scroll-document" id="pdf-document-container">
-    <div class="pdf-page-segment">
+  <!-- EXACT GRAPHICAL DOCUMENT DISPLAY -->
+  <main class="document-wrapper" id="pdf-document-container">
+    <div class="pdf-segment">
       <img src="assets/portfolio_part1.jpg" alt="Jerin J Serafin Portfolio Page 1" onclick="openLightbox('assets/portfolio_part1.jpg')" />
     </div>
-    <div class="pdf-page-segment">
+    <div class="pdf-segment">
       <img src="assets/portfolio_part2.jpg" alt="Jerin J Serafin Portfolio Page 2" onclick="openLightbox('assets/portfolio_part2.jpg')" />
     </div>
-    <div class="pdf-page-segment">
+    <div class="pdf-segment">
       <img src="assets/portfolio_part3.jpg" alt="Jerin J Serafin Portfolio Page 3" onclick="openLightbox('assets/portfolio_part3.jpg')" />
     </div>
   </main>
@@ -65,23 +70,23 @@
     <div style="max-width: 800px; margin: 0 auto;">
       <h2 style="font-size: clamp(1.8rem, 5vw, 2.4rem); font-weight: 800; margin-bottom: 24px;">Contact Jerin J Serafin</h2>
 
-      <div class="quick-contact-row" style="margin-bottom: 30px;">
-        <button class="btn btn-primary" onclick="copyContact('9895566547', 'Primary Phone')">📞 +91 9895566547</button>
-        <button class="btn btn-outline" onclick="copyContact('7736954087', 'Secondary Phone')">📱 +91 7736954087</button>
+      <div class="contact-pills-container" style="margin-bottom: 30px;">
+        <button class="btn btn-primary" onclick="copyContact('9895566547', 'Primary Contact')">📞 Call / WhatsApp +91 9895566547</button>
+        <button class="btn btn-outline" onclick="copyContact('7736954087', 'Secondary Contact')">📱 Call / WhatsApp +91 7736954087</button>
       </div>
 
       <p style="font-size: 0.85rem; color: var(--text-muted); border-top: 1px solid var(--border-light); padding-top: 24px;">
-        &copy; 2026 Jerin J Serafin. All rights reserved.
+        &copy; 2026 <strong>Jerin J Serafin</strong>. All rights reserved.
       </p>
     </div>
   </footer>
 
   <!-- Mobile Floating Quick Contact Bar -->
   <div class="mobile-floating-bar">
-    <button class="mobile-floating-btn btn-primary" onclick="copyContact('9895566547', 'Primary Phone')">
+    <button class="mobile-floating-btn btn-primary" onclick="copyContact('9895566547', 'Primary Contact')">
       📞 Call +91 9895566547
     </button>
-    <button class="mobile-floating-btn btn-outline" onclick="copyContact('7736954087', 'Secondary Phone')">
+    <button class="mobile-floating-btn btn-outline" onclick="copyContact('7736954087', 'Secondary Contact')">
       📱 +91 7736954087
     </button>
   </div>
